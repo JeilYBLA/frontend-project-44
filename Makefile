@@ -3,6 +3,9 @@ install:
 	npm ci
 	npm readline-sync
 
+lint:
+	npx eslint .
+
 publish:
 	npm publish --dry-run
 
