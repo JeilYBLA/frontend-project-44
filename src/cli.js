@@ -6,5 +6,6 @@ const greeting = () => {
 
   console.log(`Hello, ${name}!`);
 };
+
 // eslint-disable-next-line import/prefer-default-export
 export { greeting };
