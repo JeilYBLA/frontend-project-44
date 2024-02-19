@@ -2,15 +2,9 @@
 
 import readlineSync from 'readline-sync';
 
-const randomN = () => {
-  const randomNumber = Math.floor(Math.random() * 100) + 1;
-  return randomNumber;
-};
+const securityNumber = (num) => (num % 2 === 0 ? 'yes' : 'no');
 
-// eslint-disable-next-line consistent-return
-const securityNumber = (num) => (Number(num) % 2 === 0 ? 'yes' : 'no');
-
-const greeting = () => {
+const brainEven = () => {
   const compliment = 'Correct!';
   let i = 0;
   console.log('Welcome to the Brain Games!');
@@ -19,7 +13,7 @@ const greeting = () => {
   console.log(`Hello, ${name}!`);
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   while (i < 3) {
-    const randomNumber = randomN();
+    const randomNumber = Math.floor(Math.random() * 100) + 1;
     console.log(`Question: ${randomNumber}`);
     const que = readlineSync.question('Your answer: ');
     if (que.length === 0 || (que !== 'yes' && que !== 'no')) {
@@ -40,5 +34,4 @@ const greeting = () => {
   }
 };
 
-// eslint-disable-next-line import/prefer-default-export
-greeting();
+brainEven();
