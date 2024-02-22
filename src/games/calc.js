@@ -12,7 +12,7 @@ const calculate = (a, b, operation) => {
   }
 };
 
-const description = 'What is the result of the expression?';
+const gameDescription = 'What is the result of the expression?';
 const generateRound = () => {
   const rundomNumber1 = rundomNumber(1, 20);
   const rundomNumber2 = rundomNumber(1, 20);
@@ -23,6 +23,6 @@ const generateRound = () => {
   return [question, answer];
 };
 
-const startCalcgame = launchGame(generateRound, description);
+const startCalcgame = launchGame(generateRound, gameDescription);
 
 export default startCalcgame;
