@@ -1,7 +1,7 @@
 import launchGame from '../index.js';
 import rundomNumber from '../helper.js';
 
-const gameDescription = 'the greatest common divisor of given numbers.';
+const gameDescription = 'Find the greatest common divisor of given numbers.';
 
 const gcd = (a, b) => {
   let newA = a;
