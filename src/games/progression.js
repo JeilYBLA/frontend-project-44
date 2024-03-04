@@ -16,7 +16,7 @@ const generateRound = () => {
   const step = rundomNumber(2, 8);
   const length = rundomNumber(6, 15);
   const progression = getProgression(firstNumber, step, length);
-  const index = rundomNumber(0, progression.length);
+  const index = rundomNumber(0, progression.length - 1);
   const answer = String(progression[index]);
   progression[index] = '..';
   const question = progression.join(' ');
