@@ -23,25 +23,25 @@ make install
 ```
 brain-calc
 ```
-[![asciicast](https://asciinema.org/a/CVxmbRID2uc5VZhhYjNv8j4oW.svg)](https://asciinema.org/a/CVxmbRID2uc5VZhhYjNv8j4oW)
+[![asciicast](https://asciinema.org/a/dv9TQHRVtuQoSfSMHL1MVUCCL.svg)](https://asciinema.org/a/dv9TQHRVtuQoSfSMHL1MVUCCL)
 
 ## **Progression**
 ```
 brain-progression
 ```
-[![asciicast](https://asciinema.org/a/dv9TQHRVtuQoSfSMHL1MVUCCL.svg)](https://asciinema.org/a/dv9TQHRVtuQoSfSMHL1MVUCCL)
+[![asciicast](https://asciinema.org/a/JvpHwSjKa46kPFrYrdSq9Qe9o.svg)](https://asciinema.org/a/JvpHwSjKa46kPFrYrdSq9Qe9o)
 
 ## **Determining an even number**
 ```
 brain-even
 ```
-[![asciicast](https://asciinema.org/a/8cn0ZTFqzGlUmcvo6mqbjgIBy.svg)](https://asciinema.org/a/8cn0ZTFqzGlUmcvo6mqbjgIBy)
+[![asciicast](https://asciinema.org/a/CVxmbRID2uc5VZhhYjNv8j4oW.svg)](https://asciinema.org/a/CVxmbRID2uc5VZhhYjNv8j4oW)
 
 ## **GCD** 
 ```
 brain-gcd
 ```
-[![asciicast](https://asciinema.org/a/JvpHwSjKa46kPFrYrdSq9Qe9o.svg)](https://asciinema.org/a/JvpHwSjKa46kPFrYrdSq9Qe9o)
+[![asciicast](https://asciinema.org/a/8cn0ZTFqzGlUmcvo6mqbjgIBy.svg)](https://asciinema.org/a/8cn0ZTFqzGlUmcvo6mqbjgIBy)
 
 ## **Determining a prime number**
 ```
